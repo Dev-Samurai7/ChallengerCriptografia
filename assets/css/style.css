@@ -1,0 +1,190 @@
+body{
+    display: flex;
+    /* background-image: url(../img/encriptação.gif) ; */
+    background-color: #141218;
+    /* min-width: 320px;*/
+    max-width: 1200px;
+    height: 80vw;
+    margin: auto;    
+    flex-direction: column;
+}
+
+#cabecalho{   
+    min-width: 320px;
+    max-width: 1080px;
+    margin: auto;    
+    height: 10vw;
+    align-items: center;
+    font: black;
+ 
+}
+
+
+#titulo{
+    width: 100%;
+    height: 20%;
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin: 20px 50px ;
+    font-style: italic ;
+    font-size: 2em;
+
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin: 10px 0px 100px 10px;
+    font-size: 1.5em;
+    font-style: italic ;
+}
+
+
+
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    min-width: 320px;
+    max-width: 1080px;
+    height: 60vw;
+    background-image: url("https://i.gifer.com/rkb.gif") ;
+}
+
+.area{
+    display: aline-block;
+   
+}
+#areaInput{
+    width: 40em;
+    height: 30em;
+    margin: 2em 0em 0em 0em;
+}
+
+#resul{
+   
+    width: 30em;
+    height: 30em;
+    margin: 2em 0em 0em 0em;
+}
+
+#area1{
+    width: 80%;
+    height: 80%;
+    margin: 2em 0em 0 2em;
+    border: solid;
+}
+
+#area2{
+    width: 80%;
+    height: 80%;
+    margin: 2em 0em 0 2em;
+    color: black;
+    border: solid;
+}
+
+/* Botões */
+.botao{
+    width: 10em;
+    height: 2.5em;
+    margin: 1em 2.5em 0em 5em;
+    border-radius: 10px;
+    border: solid;
+
+}
+
+#copiar{
+    width: 10em;
+    height: 2.5em;
+    margin: 1em 0em 10em 12em;  
+}
+
+/* Rodape */
+#rodape{
+    color: white;    
+    /* margin: 0px 0px 0 50px; */
+    text-align: center;
+    height: 10vw; 
+    align-items: center;
+}
+#texto-rodape{
+    margin: 20px 0 0 0;
+}
+.link{
+    color:  white;;
+    text-decoration: underline;
+    font-weight: 600 ;    
+}
+#copy{
+    margin: 1em o 100em;
+    text-align: center;
+}
+
+#redes-socias{   
+    text-align: center;
+    margin: 10px 0;    
+}
+
+#contato{
+    font-size: 1.5em;
+    color: white;
+    font-style: italic;
+    margin: 10px;
+}
+
+
+/* Mobilde */
+
+@media(max-width: 768px){
+
+ #cabecalho{
+    display: block;
+     height: 15vw;
+     text-align: center;
+     font-size: 1em;
+     width: 100%;
+ }
+
+ #titulo{
+     width: 100%;
+     height: 50%;    
+ }
+
+ h1{
+    font-size:1.52em;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+}
+
+h2{
+    font-size: 1em;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+
+}
+
+
+#redes-socias{
+    display: flex;
+    height: 50%;
+    text-align: initial;
+     
+    }
+
+.redes{
+    width: 100px;
+}
+
+
+#contato{
+    text-align: end;
+    margin: 5px;
+    font-size: 1em;
+
+}
+
+}
