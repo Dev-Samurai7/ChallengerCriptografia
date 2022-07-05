@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
 
     <title>Encriptador</title>
 </head>
@@ -28,7 +29,7 @@
         <section id="container">
     
             <!-- Area para inserir o texto -->
-            <div  class="area">
+            <div  id="areaInput"  class="area">
                 <textarea name="area1" id="area1" placeholder="Digite seu texto aqui"></textarea>
 
                 <div class="botoes">
@@ -40,11 +41,14 @@
             </div>
     
              <!-- Area de resuldado -->
-            <div  class="area">
-                <textarea  name="area2" id="area2" placeholder=" A criptografia Descriptografia aparecera aqui"></textarea>
+            <div id="resul" class="area">
+            
+                <textarea  name="area2" id="area2" placeholder=" A criptografia Descriptografia aparecera aqui"></textarea>  
+
                 <button id="copiar" class="botao">Copiar</button>
            
             </div>
+
         </section>
     
 
