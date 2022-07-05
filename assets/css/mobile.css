@@ -96,24 +96,25 @@ h2{
 }
 
 #redes-socias{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 50%;
-    text-align: initial;
-     
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 #rodape{
     height: 10vh;
-    margin: 20px;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 
 #texto-rodape{
    width: 100%;
    padding: 0;
+   margin-left: auto;
+   margin-right: auto; 
 
 }
 
